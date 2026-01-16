@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="repository.thecrew"
+           name="THE CREW REPO"
+           version="0.3.8"
+           provider-name="The Crew">
+
+        <extension point="xbmc.addon.repository" name="The Crew Repository">
+            <dir minversion="18.9.0">
+                <info compressed="false">https://waseich31-afk.github.io/kodi-repo/addons.xml</info>
+                <checksum>https://waseich31-afk.github.io/kodi-repo/addons.xml.md5</checksum>
+                <datadir zip="true">https://waseich31-afk.github.io/kodi-repo/zips/</datadir>
+            </dir>
+        </extension>
+
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">The Crew Repository</summary>
+            <description lang="en">Official repository for The Crew addons</description>
+            <platform>all</platform>
+        </extension>
+
+    </addon>
+</addons>
